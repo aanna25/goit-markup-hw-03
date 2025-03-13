@@ -54,11 +54,14 @@ img {
   margin-right: auto;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .address-link {
@@ -214,7 +217,7 @@ img {
 
 .team-card {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   padding-top: 72px;
   padding-bottom: 120px;
 }
